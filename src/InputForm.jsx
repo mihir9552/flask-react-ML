@@ -5,18 +5,14 @@ class InputForm extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
     const claim = this.claimRef.current.value;
-    this.props.addClaim(claim);
-    $.ajax({
-      type: "POST",
-      url: "/test/",
-      data: claim
+    
+    fetch('/test/', {
+      method: 'post',
+      body: claim
     })
-      .done(function(data) {
-        // self.clearForm();
-      })
-      .fail(function(jqXhr) {
-        console.log("failed to register");
-      });
+    .then(response => (response.json()))
+    .then((response)=>this.props.addClaim(response));
+    // console.log("test_x: "+ test_x)
   };
   render() {
     return (

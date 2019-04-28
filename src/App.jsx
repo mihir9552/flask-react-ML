@@ -5,7 +5,7 @@ import Output from "./Output.jsx";
 
 class App extends React.Component {
   state = {
-    claims: ""
+    claims: ''
   };
   addClaim = claim => {
     this.setState({

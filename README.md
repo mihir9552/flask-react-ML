@@ -4,7 +4,7 @@ Based on https://github.com/rwieruch/minimal-react-webpack-babel-setup
 
 ## Run Locally
 
-1. Clone this repo: `git clone git@github.com:jwkvam/minimal-flask-react.git`
+1. Clone this repo: `git clone git@github.com:threedoorsdown0/flask-react-ML.git`
 2. npm install
 3. npm run dev
 4. pip install -r requirements.txt

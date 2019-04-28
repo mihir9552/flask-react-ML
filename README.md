@@ -1,6 +1,6 @@
 # minimal-flask-react
 
-Based on https://github.com/rwieruch/minimal-react-webpack-babel-setup
+Based on https://github.com/rwieruch/minimal-react-webpack-babel-setup and https://github.com/jwkvam/minimal-flask-react
 
 ## Run Locally
 

@@ -1,0 +1,53 @@
+.container {
+  /* width: 900px;
+  height: 900px;*/
+  /* margin: auto; */
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  /* margin-top: -50px;
+  margin-left: -50px; */
+  /* width: 100px;
+    height: 100px; */
+}
+
+.InputForm {
+  width: 600px;
+  height: 450px;
+  background-color: #cce2ff;
+  /* background-color: lightblue; */
+  float: left;
+  border: 1px solid black;
+}
+
+.OutputForm {
+  width: 600px;
+  height: 450px;
+  background-color: #cce2ff;
+  /* background-color: lightblue; */
+  float: left;
+  border: 1px solid black;
+}
+
+.clear {
+  clear: both;
+}
+
+.ui.form {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.result {
+  margin-top: 10%;
+}
+
+.ui.segment {
+  margin-top: 10%;
+}

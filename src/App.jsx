@@ -2,21 +2,29 @@ import React from "react";
 import ReactDOM from "react-dom";
 import InputForm from "./InputForm.jsx";
 import Output from "./Output.jsx";
+import "./styles.css";
+import { Header, Segment } from "semantic-ui-react";
+
+// const divStyle = {
+//   width: "50vw"
+// };
 
 class App extends React.Component {
   state = {
-    claims: ''
+    claims: {}
   };
   addClaim = claim => {
     this.setState({
       claims: claim
     });
   };
+
   render() {
     return (
-      <div>
+      <div className="container">
         <InputForm addClaim={this.addClaim} />
         <Output claim={this.state.claims} />
+        <div className="clear" />
       </div>
     );
   }

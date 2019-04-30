@@ -22,9 +22,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <InputForm addClaim={this.addClaim} />
-        <Output claim={this.state.claims} />
-        <div className="clear" />
+        <div className="header">Patent-Claim Text Analyzer</div>
+        <div className="app">
+          <InputForm addClaim={this.addClaim} />
+          <Output claim={this.state.claims} />
+          <div className="clear" />
+        </div>
       </div>
     );
   }
